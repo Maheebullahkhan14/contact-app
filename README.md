@@ -8,7 +8,7 @@ This project is a simple Contact Form Page built using **React.js**, **Redux**, 
 
 ## Features
 
-- **Contact Form**: A simple form to collect name, email, and message.
+- **Contact Form**: A simple form to collect name, email,website_url and message.
 - **State Management**: Uses **Redux** and **Redux Toolkit** to manage form state and handle form submission.
 - **Animations**: Utilizes **React Spring** to animate the form and elements for a smooth user experience.
 - **Form Validation**: Ensures that the form inputs are valid before submission.
@@ -20,7 +20,6 @@ This project is a simple Contact Form Page built using **React.js**, **Redux**, 
 - **Redux**: A state management tool for JavaScript applications.
 - **Redux Toolkit**: A set of tools to simplify Redux development and improve its structure.
 - **React Spring**: A spring-physics-based animation library for React.
-- **React Hook Form** (optional, if used for form validation and submission handling).
 
 ## Installation
 
