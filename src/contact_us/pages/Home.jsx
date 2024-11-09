@@ -15,7 +15,7 @@ const Home = () => {
             <OfficeInfo />
             <CompanyMetrics />
             <Partners />
-            {/* <NewsLetter /> */}
+            <NewsLetter />
             <Footer />
         </>
     )
