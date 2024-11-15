@@ -1,22 +1,18 @@
-import React from 'react'
-import Hero from '../components/Hero'
-import ContactSection from '../components/ContactSection'
-import OfficeInfo from '../components/OfficeVisit'
-import CompanyMetrics from '../components/CompanyMetrics'
-import Partners from '../components/Partners'
-import NewsLetter from "../components/NewsLetter"
-import Footer from '../components/Footer'
+import React, { useState } from 'react'
+import SideBarMenu from '../components/SidebarMenu'
+import NewsListContent from '../components/NewsListContent'
 
 const Home = () => {
+    const [selectedCategory ,  setSelectedCategory] = useState(null);
+
     return (
         <>
-            <Hero />
-            <ContactSection />
-            <OfficeInfo />
-            <CompanyMetrics />
-            <Partners />
-            <NewsLetter />
-            <Footer />
+            <div className="news-app-main-cover-wrapper">
+                <div className="news-app-content-cover-wrapper">
+                    <SideBarMenu selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}/>
+                    <NewsListContent selectedCategory={selectedCategory}/>
+                </div>
+            </div>
         </>
     )
 }
